@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+## Demo專案執行
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. `npm i`安裝執行所需的套件
+2. `npm start`運行專案
+3. 瀏覽器開啟網頁 http://localhost:3000
 
-## Available Scripts
+## 前端環境說明
 
-In the project directory, you can run:
+### [Node.js](https://nodejs.org/en)
+Node.js 是能夠在伺服器端運行 JavaScript 的開放原始碼、跨平台執行環境。
 
-### `npm start`
+### [NPM](https://www.npmjs.com/)
+npm（全稱 Node Package Manager，即「node套件管理器」）是Node.js預設的、用JavaScript編寫的軟體套件管理系統。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+常見的套件管理還有yarn、pnpm
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### [Webpack](https://webpack.js.org/)
+Webpack 是一個開源的前端打包工具。Webpack 提供了前端開發缺乏的模組化開發方式，將各種靜態資源視為模組，並從它生成優化過的程式碼。
 
-### `npm test`
+常見前端打包工具還有vite(vue作者寫的)、turbopack(next團隊寫的)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### [React](https://zh-hant.legacy.reactjs.org/)
+React是一個自由及開放原始碼的前端JavaScript工具庫，用於基於UI組件構建使用者介面。
 
-### `npm run build`
+它由Meta（前身為Facebook）和由個人開發者和公司組成的社群維護。React可用作開發具有Next.js等框架的單頁、手機或伺服器彩現應用程式的基礎。然而，React只專注狀態管理和將狀態彩現到DOM，因此建立React應用程式通常需要使用額外的工具庫來進行路由實作，以及某些客戶端功能。
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### JSX
+JSX或JavaScript語法擴充，是JavaScript語言語法的擴充。在外表上與HTML類似，JSX提供了一種使用許多開發人員熟悉的語法來構建組件彩現的方法。
